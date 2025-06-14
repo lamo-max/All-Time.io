@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>Team X অর্ডার ফর্ম</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #eef2f3, #cfd9df);
+      padding: 30px;
+    }
+    form {
+      background: white;
+      padding: 30px;
+      max-width: 650px;
+      margin: auto;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #1e40af;
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 15px;
+      display: block;
+    }
+    select, input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px;
+      width: 100%;
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+
+<form action="https://formsubmit.co/amdeyasin52@gmail.com" method="POST">
+  <h2>Team X অর্ডার ফর্ম</h2>
+
+  <label for="name">আপনার নাম</label>
+  <input type="text" name="name" required>
+
+  <label for="phone">মোবাইল নম্বর</label>
+  <input type="text" name="phone" required>
+
+  <label for="service">তথ্য বাছাই করুন</label>
+  <select name="service" required>
+    <option value="" disabled selected>একটি তথ্য নির্বাচন করুন</option>
+    <option>নাম্বার টু NID ইনফরমেশন</option>
+    <option>নাম্বার টু লাইভ/সর্বশেষ লোকেশন</option>
+    <option>নাম্বার টু ব্যক্তিগত তথ্য</option>
+    <option>নাম্বার টু কল লিস্ট</option>
+    <option>নাম্বার টু এসএমএস লিস্ট</option>
+    <option>নাম্বার টু ডিভাইস তথ্য</option>
+    <option>নাম্বার টু IMEI তথ্য</option>
+    <option>নাম্বার টু বিকাশ NID ইনফরমেশন</option>
+    <option>নাম্বার টু রকেট NID ইনফরমেশন</option>
+    <option>নাম্বার টু নগদ NID ইনফরমেশন</option>
+    <option>নাম্বার টু TIN ইনফরমেশন</option>
+    <option>NID টু জন্মনিবন্ধন ডিটেইলস</option>
+    <option>NID টু সমস্ত রেজিস্টার্ড নাম্বর</option>
+    <option>NID টু পাসপোর্ট ইনফরমেশন</option>
+    <option>IMEI টু ডিভাইস ইনফরমেশন</option>
+    <option>IMEI টু একটিভ ইউজার নাম্বার</option>
+    <option>IMEI টু লোকেশন + NID + নাম্বার</option>
+    <option>IMEI টু লোকেশন + NID + নাম্বার + কল লিস্ট</option>
+    <option>নগদ স্টেটমেন্ট</option>
+    <option>৩/৬/১২/২৪ মাসের কারিগরি প্রশিক্ষণ সার্টিফিকেট</option>
+  </select>
+
+  <label for="payment">পেমেন্ট মাধ্যম</label>
+  <select name="payment" required>
+    <option value="" disabled selected>পেমেন্ট মাধ্যম নির্বাচন করুন</option>
+    <option>বিকাশ</option>
+    <option>নগদ</option>
+    <option>রকেট</option>
+    <option>অন্যান্য</option>
+  </select>
+
+  <label for="transaction_id">ট্রানজেকশন আইডি</label>
+  <input type="text" name="transaction_id" placeholder="Bkash/Nagad/Rocket Txn ID" required>
+
+  <label for="details">অতিরিক্ত তথ্য (যদি থাকে)</label>
+  <textarea name="details" rows="3" placeholder="অতিরিক্ত তথ্য লিখুন (যদি থাকে)"></textarea>
+
+  <input type="hidden" name="_cc" value="amdasrafulislam37@gmail.com">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="নতুন Team X অর্ডার!">
+  <input type="hidden" name="_template" value="table">
+
+  <button type="submit">✅ অর্ডার নিশ্চিত করুন</button>
+</form>
+
+</body>
+</html>
